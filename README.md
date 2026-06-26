@@ -33,7 +33,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b.svg)](#)
 &nbsp;&nbsp;
-[![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Tencent%20Hunyuan-ffc107?color=ffc107&logoColor=white)](https://huggingface.co/XuminYu/ViQ_weights)
+[![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-ViQ-ffc107?color=ffc107&logoColor=white)](https://huggingface.co/XuminYu/ViQ_weights)
 &nbsp;&nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-ViQ-181717?logo=github)](https://github.com/yuxumin/ViQ)
 
