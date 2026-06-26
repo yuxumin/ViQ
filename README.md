@@ -31,7 +31,7 @@
 
 <div align="center" style="line-height: 1;">
 
-[![arXiv](https://img.shields.io/badge/arXiv-xxxx.xxxxx-b31b1b.svg)](#)
+[![arXiv](https://img.shields.io/badge/arXiv-2606.27313-b31b1b.svg)](https://arxiv.org/abs/2606.27313)
 &nbsp;&nbsp;
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-ViQ-ffc107?color=ffc107&logoColor=white)](https://huggingface.co/XuminYu/ViQ_weights)
 &nbsp;&nbsp;
