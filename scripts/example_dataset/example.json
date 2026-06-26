@@ -1,0 +1,101 @@
+[
+  {
+    "id": "example_000",
+    "image": [
+      {
+        "img_path": "scripts/example_dataset/images/red_circle.png",
+        "resize": "384x16"
+      }
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe this image in one sentence."
+      },
+      {
+        "from": "gpt",
+        "value": "A large red circle centered on a light gray background."
+      }
+    ]
+  },
+  {
+    "id": "example_001",
+    "image": [
+      {
+        "img_path": "scripts/example_dataset/images/blue_square.png",
+        "resize": "384x16"
+      }
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe this image in one sentence."
+      },
+      {
+        "from": "gpt",
+        "value": "A blue rectangle on a pale background."
+      }
+    ]
+  },
+  {
+    "id": "example_002",
+    "image": [
+      {
+        "img_path": "scripts/example_dataset/images/green_triangle.png",
+        "resize": "384x16"
+      }
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe this image in one sentence."
+      },
+      {
+        "from": "gpt",
+        "value": "A green triangle pointing upward on a light background."
+      }
+    ]
+  },
+  {
+    "id": "example_003",
+    "image": [
+      {
+        "img_path": "scripts/example_dataset/images/yellow_circle.png",
+        "resize": "384x16"
+      }
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDescribe this image in one sentence."
+      },
+      {
+        "from": "gpt",
+        "value": "A yellow circle on a white background."
+      }
+    ]
+  },
+  {
+    "id": "example_multi_000",
+    "image": [
+      {
+        "img_path": "scripts/example_dataset/images/red_circle.png",
+        "resize": "384x16"
+      },
+      {
+        "img_path": "scripts/example_dataset/images/blue_square.png",
+        "resize": "384x16"
+      }
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\n<image>\nWhat shapes are shown in these two images?"
+      },
+      {
+        "from": "gpt",
+        "value": "The first image shows a red circle and the second shows a blue square."
+      }
+    ]
+  }
+]

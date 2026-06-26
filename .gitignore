@@ -1,0 +1,107 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ===== Virtual envs =====
+.venv/
+venv/
+env/
+.env
+.envrc
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== Training artifacts =====
+wandb/
+runs/
+logs/
+log_outputs/
+training_plot/
+training_plotv2/
+checkpoints/
+outputs/
+output/
+tb_logs/
+tensorboard/
+
+# ===== Logs =====
+*.log
+*.log.*
+nohup.out
+
+# ===== Large binary outputs (typically uncommitted) =====
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.parquet
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# ===== Images / videos generated during debug =====
+# (LFS-tracked images that are *intentionally* committed should be force-added)
+# debug image dumps
+**/vae_test/
+**/vae_test_f16*/
+**/qwen_vae_test/
+**/flux_one_step_image_verify_*.png
+**/vae_image_verify_*.png
+**/image_check_*.png
+
+# ===== Caches =====
+.cache/
+*.cache
+
+# ===== System =====
+*.pid
+*.lock
+core.*
+
+# ===== Don't commit jpeg samples / debug =====
+train/jpeg.jpg
+train/ori.jpg
+
+# ===== Local-only =====
+local/
+scratch/
+tmp/
+temp/
+
+# ===== Pretrained model weights (download separately, see readme.md) =====
+# HuggingFace / timm snapshots — too large for the repo, fetched on each machine.
+Qwen2.5-0.5B/
+siglip2_g_384_16/
+siglip2_so400m_384_16/
+
+# ===== Prebuilt wheels (install via build_env.sh) =====
+# flash-attn prebuilt wheel; build_env.sh pip-installs this file.
+flash_attn-*.whl
+
+# ===== Standalone weight checkpoints (to be moved to a dedicated HF weights repo) =====
+# Large .pth checkpoints kept at the repo root for now. These will be relocated
+# to a separate HuggingFace weights repo; ignored here so they don't bloat git.
+*.pth
+*.bin
