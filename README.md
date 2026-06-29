@@ -152,7 +152,7 @@ This example is the single-stage shortcut; the paper's progressive two-stage rec
 
 ## 🎨 Reconstruction
 
-ViQ codes can be decoded back to pixels. The reconstruction decoder is **trained in a separate stage** on top of a frozen, pretrained ViQ encoder: following the REPA idea, a lightweight decoder is supervised with a combination of KL, MSE, LPIPS, and GAN losses, plus a **representation-alignment (REPA) loss** that aligns the ViQ pre-decoder features with an external feature extractor (DINOv2) for stronger semantic grounding. This decoder achieves high-quality, high-compression-ratio reconstruction at native resolution.
+ViQ codes can be decoded back to pixels. The reconstruction decoder is **trained in a separate stage** on top of a frozen, pretrained ViQ encoder: following the REPA idea, a lightweight decoder is supervised with a combination of KL, MSE, LPIPS, and GAN losses. This decoder achieves high-quality, high-compression-ratio reconstruction at native resolution.
 
 > The lightweight decoder and its training recipe are **planned for a future release** (see below).
 
