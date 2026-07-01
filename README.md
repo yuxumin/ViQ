@@ -14,7 +14,7 @@
 <p align="center">
     <a href="https://yuxumin.github.io/">Xumin Yu</a><sup>1,*</sup>&emsp;
     Zuyan Liu<sup>1,2,*</sup>&emsp;
-    Zhenyu Yang<sup>1,2,*</sup>&emsp;
+    <a href="https://sotayang.github.io/">Zhenyu Yang</a><sup>1,4,*</sup>&emsp;
     Yuhao Dong<sup>3</sup>
     <br>
     Shengsheng Qian<sup>4</sup>&emsp;
